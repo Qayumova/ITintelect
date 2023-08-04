@@ -1,0 +1,119 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+/* header start  */
+header{
+width: 100%;
+height: 770px;
+background: url(./photos/Layer\ 10.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+header .header_top{
+width:80%;
+height:45px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+} 
+header .header_top h2{
+color: #ffffff;
+font-size:24px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+padding-top: 40px;
+}
+header .header_top ul{
+width:35%;
+height: 45px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 30px;
+}
+header .header_top ul li a{
+color:#ffffff ;
+font-size:14px ;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+}
+header .header_section{
+width:100%;
+height: 190px;
+margin: auto;
+text-align: center;
+margin-top: 270px;
+}
+header .header_section h1{
+color:#ffffff;
+font-size: 45px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:400;
+}
+header .header_section h4{
+color: #ffffff;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+padding-top:20px;
+}
+header .header_section button{
+color: #ffffff;
+font-size: 14px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 400;
+margin-top: 70px;
+padding: 10px 30px;
+background: none;
+}
+/* header end */
+/* section start */
+section{
+width: 100%;
+height:580px ;
+text-align: center;
+}
+section .section_top {
+width: 100%;
+height:260px;
+padding-top: 100px;
+}
+section .section_top h3{
+color: #555555;
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 400;
+
+}
+section .section_top p{
+color:#555555;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+padding-top:30px;
+}
+section hr{
+    color: #555555;
+    width: 5%;
+    margin: auto;
+    margin-top: 30px;
+}
+section .section_footer{
+width: 100%;
+height: 320px;
+background-color: aqua;
+}
+section.section_footer ico{
+width: 100%;
+height: 212px;
+
+}
+
+/* section end */
+
